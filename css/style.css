@@ -256,6 +256,7 @@ body::after {
   display: flex;
   justify-content: center;
   gap: 0.6rem;
+  flex-wrap: wrap;
 }
 
 .social-link {
@@ -277,12 +278,15 @@ body::after {
   box-shadow: 0 6px 16px -4px rgba(0,0,0,0.12);
 }
 
-.social-link:hover.sl-github   { color: #24292e; border-color: #24292e; background: #f6f8fa; }
-.social-link:hover.sl-linkedin { color: #0a66c2; border-color: #0a66c2; background: #e8f4fd; }
-.social-link:hover.sl-scholar  { color: #4285f4; border-color: #4285f4; background: #e8f0fe; }
-.social-link:hover.sl-email    { color: #ea4335; border-color: #ea4335; background: #fce8e6; }
-.social-link:hover.sl-instagram{ color: #e4405f; border-color: #e4405f; background: #fce4ec; }
-.social-link:hover.sl-twitter  { color: #000000; border-color: #000000; background: #f5f5f5; }
+.social-link:hover.sl-github       { color: #24292e; border-color: #24292e; background: #f6f8fa; }
+.social-link:hover.sl-linkedin     { color: #0a66c2; border-color: #0a66c2; background: #e8f4fd; }
+.social-link:hover.sl-scholar      { color: #4285f4; border-color: #4285f4; background: #e8f0fe; }
+.social-link:hover.sl-scopus       { color: #eb5f07; border-color: #eb5f07; background: #fff3eb; }
+.social-link:hover.sl-orcid        { color: #a6ce39; border-color: #a6ce39; background: #f5fae8; }
+.social-link:hover.sl-researchgate { color: #00ccbb; border-color: #00ccbb; background: #e6faf8; }
+.social-link:hover.sl-sinta        { color: #0077b6; border-color: #0077b6; background: #e0f2fe; }
+.social-link:hover.sl-wos          { color: #5e2ced; border-color: #5e2ced; background: #f3effe; }
+.social-link:hover.sl-email        { color: #ea4335; border-color: #ea4335; background: #fce8e6; }
 
 .social-link svg {
   width: 19px;
