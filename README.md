@@ -13,4 +13,4 @@ git clone https://github.com/rivans/landing-page-web.git
 ## Features
 
 - Modern and responsive landing page layout.
-- Clean and optimized HTML/CSS/JS.
+- Clean and optimized HTML/CSS.
