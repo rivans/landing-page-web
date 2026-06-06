@@ -1,5 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/YOUR_CPANEL_USERNAME/public_html
-    - /bin/rsync -av --exclude='.git*' --exclude='.cpanel.yml' --exclude='README.md' --exclude='prd.md' * $DEPLOYPATH
+    - export DEPLOYPATH=/home/rivk3558/public_html
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
